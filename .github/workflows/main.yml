@@ -29,7 +29,7 @@ jobs:
           version: 12  
     
       - name: GitHub Action for Yarn
-        uses: Borales/action-yarn@v2.1.0
+        uses: Borales/actions-yarn@v2.1.0
         with:
           cmd: install 
 
