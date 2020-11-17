@@ -33,7 +33,6 @@ jobs:
       with:
         cmd: install 
 
-
     - name: Creating build
       run: yarn build
 
@@ -42,4 +41,3 @@ jobs:
         
     - name: deploying on surge
       run: surge ./build http://bootcamp_class2s.surge.sh/ --token ${{secrets.SURGE_TOKEN2}}
-
